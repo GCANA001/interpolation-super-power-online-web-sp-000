@@ -3,11 +3,6 @@ def display_rainbow(color)
 end
 
 def color_names(names)
-    A = "red"
-  B = "orange"
-  C = "yellow"
-  D = "green"
-  E = "blue"
-  F = "indigo"
-  G = "violet"
+    puts "red","orange","yellow","green","blue","indigo","violet"
+end
   
