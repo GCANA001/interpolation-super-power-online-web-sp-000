@@ -1,11 +1,13 @@
-def display_rainbow
-  A = "red"
+def display_rainbow(color)
+  puts "A:#{color[0]}, B: #{color[1]}, C: #{color[2]}, D:#{color[3]}, E:#{color[4]}, F:#{color[5]}, G:#{color[6]}, H:#{color[7]}"
+end
+
+def color_names(names)
+    A = "red"
   B = "orange"
   C = "yellow"
   D = "green"
   E = "blue"
   F = "indigo"
   G = "violet"
-  puts "A:#{0}, B: #{1}, C: #{2}, D:#{3}, E:#{4}, F:#{5}, G:#{6}, H:#{7}"
-end
   
